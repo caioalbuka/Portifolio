@@ -1,0 +1,49 @@
+.container {
+  margin-top: 15%;
+  display: flex;
+  flex-flow: column;
+}
+.header-about {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  text-align: center;
+}
+
+.photo-info {
+  box-shadow: 10px 10px 10px 0px black;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+}
+.photo {
+  width: 50%;
+  align-items: center;
+  align-content: center;
+}
+.about-me {
+  font-size: 25px;
+  margin-left: 25px;
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  align-items: center;
+  align-content: center;
+}
+
+.photo-info img {
+  width: 50%;
+}
+.btn-highlighted-btn {
+  background-color: coral;
+
+  color: cornsilk;
+  border-radius: 50px;
+  border: 5px;
+  border-color: floralwhite;
+  margin-top: 30px;
+  width: auto;
+  height: 30px;
+  font-size: 20px;
+  margin: 10px;
+}
