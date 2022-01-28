@@ -1,0 +1,7 @@
+.buttonWhats button {
+  width: 200px;
+  height: 50px;
+
+  border-radius: 15px;
+  background-color: rgb(245, 102, 46);
+}

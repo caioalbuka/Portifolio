@@ -1,0 +1,28 @@
+/* .espanhol {
+  /* --progress: 50;
+  height: 30px;
+  /* margin: 5px; */
+/* padding: 5px; */
+
+/* display: flex;
+  flex-direction: row-reverse; */
+/* position: absolute; */
+/* width: 200px;
+  background-color: #0fd439;
+  animation: progress-animation 5s 0;
+  animation-iteration-count: 1;
+} */
+/* @keyframes espanhol {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+} */
+/* .espanhol::before {
+  content: "";
+
+  width: calc(var(--progress) * 6%);
+  background-color: #00000099;
+} */

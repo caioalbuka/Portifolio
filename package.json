@@ -12,9 +12,13 @@
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
     "react-typical": "^0.1.3",
+    "styled-components": "^5.3.3",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "sass": "sass sass:css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.49.0"
   }
 }

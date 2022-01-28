@@ -1,0 +1,17 @@
+.ingles {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row-reverse;
+  width: 150px;
+  background-color: #d44d0f;
+  animation: progress-animation 5s 0;
+  animation-iteration-count: 1;
+}
+/* @keyframes ingles {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+} */

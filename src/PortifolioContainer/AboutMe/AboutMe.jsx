@@ -6,11 +6,19 @@ import Projetos from "../../component/Projetos";
 // import Info from "../../component/Info";
 
 import "./AboutMe.css";
+import Title from "../../Style/Title/Title";
+import SubTitle from "../../Style/SubTitle/SubTitle";
+import TitleP from "../../Style/TitleP/TitleP";
+import SubtitleP from "../../Style/SubTitleP/SubtitleP";
 
 export default function AboutMe() {
   // const handleContrate = () => {};
 
   const info = [
+    {
+      projetos: "Crachá NLW",
+      url: "https://caioalbuka.github.io/NLW/",
+    },
     {
       projetos: "Jogo do quadrado",
       url: "https://caioalbuka.github.io/Jogo-do-Quadrado/",
@@ -18,6 +26,10 @@ export default function AboutMe() {
     {
       projetos: "Lista de Tarefas",
       url: "https://caioalbuka.github.io/Lista-de-Tarefas/",
+    },
+    {
+      projetos: "Contador",
+      url: "https://caioalbuka.github.io/Contador/",
     },
   ];
 
@@ -39,13 +51,13 @@ export default function AboutMe() {
     <div className="container">
       <div className="header-about">
         <span>
-          <h1>Sobre Mim</h1>
+          <TitleP title="Sobre Mim" />
         </span>
-        <span>Me conheça um pouco mais </span>
+        <SubtitleP title="Um pouco da minha tragetoria e realizações" />
       </div>
       <div className="photo-info">
         {/* <div className="photo"> */}
-        {/* <img src="photoAboutMe.jpg" /> */}
+        <img src="photoAboutMe.jpg" />
         {/* </div> */}
         <div className="about-me">
           <div className="text">
@@ -53,34 +65,25 @@ export default function AboutMe() {
             tempo fora da area resolvi voltar aos estudos e voltei com tudo,
             hoje estou trabalhando e estudando junto com um amigo. Além desse
             portifolio que eu mesmo fiz utilizando ReactJs, Html e Css e
-            JavaScript tenho criando alguns projetos esses são alguns dos
-            projetos que fiz.
+            JavaScript tenho criado outros projetos. Aqui estão alguns deles que
+            fiz e publiquei no GitHub-Pages.
           </div>
-          <div className="projetos">Projetos</div>
-          <h6>Abaixo meus projetos publicados</h6>
+          <div className="projetos">
+            <Title title="Meus Projetos" />
+          </div>
+          <div className="subtitle-projetos">
+            <SubTitle title="Abaixo meus projetos publicados no GH-Pages" />
+          </div>
           <h8>Click para acessar!</h8>
           <div className="array-projetos">
             {info &&
               info.map((item) => (
                 // <Projetos info={item.projetos}>
-                <a href={item.url}>
+                <a href={item.url} target="_blank">
                   {" "}
                   <Projetos info={item.projetos}></Projetos>
                 </a>
-                // </Projetos>
               ))}
-            {/* {data &&
-              data.map((item) => (
-                <Button text={item.title} id={item.id} completed={item.status}>
-                  {item.title}
-                </Button>
-              ))} */}
-          </div>
-          <div className="bt-about">
-            {/* <Button onClick={handleContrate}> Contrate-me</Button> */}
-            <a href="cv-caio.pdf" download="Caio Cv cv-caio.pdf">
-              <button className="btn-highlighted-btn">CV em Pdf</button>
-            </a>
           </div>
         </div>
       </div>

@@ -1,0 +1,23 @@
+.escolar-main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(205, 118, 216);
+}
+.imagem-escola img {
+  width: 100%;
+}
+.escola {
+  width: 60%;
+}
+.cursos {
+  font-size: 18px;
+  width: 80%;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.cursos div {
+  margin: 10px;
+}

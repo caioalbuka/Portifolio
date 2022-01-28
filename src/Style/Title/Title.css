@@ -1,0 +1,9 @@
+.title {
+  font-weight: bold;
+  font-size: 35px;
+
+  color: rgb(188, 132, 202);
+  text-align: center;
+
+  overflow: hidden;
+}

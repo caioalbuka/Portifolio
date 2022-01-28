@@ -1,1 +1,99 @@
+.Mensager {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
 
+.link-contato {
+  display: flex;
+  flex-direction: row;
+  background-color: blueviolet;
+}
+
+.body-contactme {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+.image {
+  text-align: center;
+}
+.image img {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.links-contato {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.links-contato button {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border-style: double;
+  color: blueviolet;
+  border-radius: 15px;
+  background-color: rgb(245, 102, 46);
+  text-decoration: none;
+  margin: 10px;
+}
+.links-contato a {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  border-style: double;
+  margin: 10px;
+
+  color: blueviolet;
+  border-radius: 15px;
+  background-color: rgb(245, 102, 46);
+  text-decoration: none;
+}
+.mesager-image {
+  display: flex;
+  flex-direction: row;
+  color: rgb(245, 102, 46);
+}
+
+.mensager {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 100px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.download-cv {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  border-style: double;
+  margin: 10px;
+
+  color: blueviolet;
+  border-radius: 15px;
+  background-color: rgb(245, 102, 46);
+  text-decoration: none;
+}
+
+.download-cv-container {
+  margin-top: 50px;
+}

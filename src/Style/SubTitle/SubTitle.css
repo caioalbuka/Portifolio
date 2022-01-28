@@ -1,0 +1,9 @@
+.subtitle {
+  /* font-weight: bold; */
+  font-size: 16px;
+
+  color: rgb(180, 129, 238);
+  text-align: center;
+
+  overflow: hidden;
+}

@@ -1,0 +1,40 @@
+.skill-main {
+  width: 300px;
+}
+.hardSkill {
+  display: flex;
+  flex-direction: column;
+}
+.softSkill {
+  margin-top: 10px;
+}
+.linguas {
+  display: flex;
+  flex-direction: column;
+}
+.lingua-max {
+  background-color: #00000099;
+  width: 300px;
+}
+.hard-max {
+  background-color: #00000099;
+  width: 300px;
+}
+/* .espanhol {
+  width: 300px;
+} */
+/* .ingles {
+  position: absolute;
+  height: 100%;
+  width: 20px;
+  background-color: #0fd439;
+  animation: progress-animation 5s infinite;
+}
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+} */

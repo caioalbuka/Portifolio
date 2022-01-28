@@ -1,0 +1,20 @@
+.historicos-main {
+  background-color: blueviolet;
+  /* margin-top: -50px; */
+  height: 550px;
+  width: 100%px;
+  display: flex;
+  flex-flow: row;
+}
+.historico-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.historico-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: lawngreen;
+  width: 30vh;
+  height: 70vh;
+}
