@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./Inicio.css";
 const Inicio = () => {
   return (
     <div className="inicio-main">
@@ -7,7 +8,7 @@ const Inicio = () => {
         Clique no Menu ao lado para viajar pelos meus Historicos, Conquistas,
         Habilidades e Sonhos.
       </div>
-      <img src="#foto formal" />
+      <img src="trilha.jpeg" />
     </div>
   );
 };

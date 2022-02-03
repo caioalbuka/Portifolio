@@ -28,7 +28,7 @@ const Historico = () => {
           </span>
           <span>
             <button onClick={() => trocaHistorico(<Escolar />)}>
-              Histórico Escolar
+              Escola e Cursos
             </button>
           </span>
           <span>

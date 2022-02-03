@@ -1,0 +1,14 @@
+.inicio-main {
+  background-color: rgb(54, 97, 161);
+  align-content: center;
+  align-items: center;
+}
+.inicio-main img {
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 50%px;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+}

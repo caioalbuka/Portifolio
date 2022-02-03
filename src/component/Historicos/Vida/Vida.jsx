@@ -1,21 +1,28 @@
 import React from "react";
-// import Typical from "react-typical";
+
 import Hobby from "./Hobby";
 import "./Vida.css";
-// import ButtonPause from "../ButtonPause";
-// import playPause from "./ButtonPause";
 
-const Vida = () => {
-  const button = document.querySelector("button");
-  button.addEventListener("click", function () {
-    const audio = document.querySelector("audio");
-    audio.play();
-  });
+import useSound from "use-sound";
+
+import audio from "../../../Audio/audio.mp3";
+
+const BoopButton = () => {
+  const [play, { stop }] = useSound(audio);
 
   return (
+    <button onMouseEnter={() => play()} onMouseLeave={() => stop()}>
+      <span role="img" aria-label="trumpet">
+        🎺
+      </span>
+    </button>
+  );
+  // <button onClick={play}>Play</button>;
+};
+
+const Vida = () => {
+  return (
     <div>
-      <audio src="starwarss.wav"></audio>
-      <button>Play</button>
       <div className="wrapper">
         <div className="scroll-text">
           <span>A long time in this galaxy...</span>
@@ -42,22 +49,15 @@ const Vida = () => {
           obter as minhas conquistas.
           <h1>Que a força esteja conosco!</h1>
         </div>
-        <div className="button-pause">
-          {/* <ButtonPause>Pause a musicaIcone de pausar</ButtonPause> */}
-          {/* <button id="playPauseBTN" onClick={playPause()}>
-          Play
-        </button> */}
-          {/* <playPause>PAUSAR</playPause> */}
+        <div className="button-music">
+          Passe o mouse no Trompete!
+          <div className="icone">
+            <BoopButton />
+          </div>
         </div>
         <div className="hobby">
           <Hobby />
         </div>
-        {/*<img "Mel na praia"/>
-       <img "Tilha"/>
-         <img "tocando violao" />
-         <img "surfando" />
-           <img "Palhaço" />
-     </div> */}
       </div>
     </div>
   );
