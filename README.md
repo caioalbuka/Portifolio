@@ -1,3 +1,3 @@
-<title>Portifolio do Caio Albuka</title>
+<h1>Portifólio do Caio Albuka</h1>
 <h2>Esse portifólio foi construido conforme meus estudos de ReactJs, Css, Html e GitHub.</h2>
-<a href="../index.js">Acessar o POrtifólio</a>
+<a href="../src/index.js ">Acessar o Portifólio</a>
