@@ -53,11 +53,13 @@
   text-align: justify;
   position: relative;
   animation: scroll 300s linear forwards;
+  margin-left: 100px;
 }
 .scroll-text span {
   font-size: 90px;
   text-align: center;
   line-height: 2em;
+  
 }
 @keyframes scroll {
   from {
@@ -66,7 +68,7 @@
   }
   to {
     top: -7500px;
-    transform: translateZ(-2500px) rotateX(21deg);
+    transform: translateZ(-2500px) rotateX(20deg);
   }
 }
 .button-music {
@@ -82,6 +84,7 @@
   margin-top: 20px;
 }
 .hobby {
+  
   height: 500px;
   width: 500px;
   overflow-y: scroll;

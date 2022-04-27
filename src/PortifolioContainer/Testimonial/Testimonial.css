@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.centralizar{
+  width: 220px;
+  height: 430px;
+  overflow:hidden;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: row; 
+
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.galeria{
+  width: 1000%;
+  text-align: center;
+}
+
+.galeria img{
+  width: 100%;
+  display: flex;
+}
+
+.container{
+  margin-top: 150px;
+  width: 1122px;
+  height: 200px;
+}

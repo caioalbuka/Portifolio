@@ -1,11 +1,4 @@
-.container {
-  margin-top: 0px;
-  display: flex;
-  flex-flow: column;
-  background-color: #00000066;
-  width: 100px;
-  height: 100px;
-}
+
 .header-about {
   display: flex;
   flex-flow: column;

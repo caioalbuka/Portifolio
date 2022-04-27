@@ -1,8 +1,8 @@
 .historicos-main {
-  background-color: blueviolet;
+  background-color: rgb(54, 97, 161);
   /* margin-top: -50px; */
   height: 550px;
-  width: 100%px;
+  width: 100%;
   display: flex;
   flex-flow: row;
 }
@@ -20,14 +20,15 @@
   margin-top: 30px;
   background-color: cornflowerblue;
   color: #ffffff99;
+  margin-left: 50px;
 }
 .historico-menu {
-  margin-top: 30px;
+
   display: flex;
   flex-direction: column;
   background-color: rgb(54, 97, 161);
-  width: 30vh;
-  height: 70vh;
+  width: 300px;
+  height: 584px;
   align-items: center;
   align-content: center;
 }

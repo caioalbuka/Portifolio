@@ -25,18 +25,16 @@ const ContactMe = () => {
             <div className="mensager">
               <form action="mailto:caioalbuka@gmail.com" method="GET">
                 Nome:
-                <input name="subject" type="text" />
+                <input className="subject" type="text" />
                 <br />
                 E-mail:
-                <input name="cc" type="email" />
+                <input className="cc" type="email" />
                 <br />
-                Messagem<textarea name="body"></textarea>
+                Messagem:
+                <textarea className="body"></textarea>
                 <br />
-                <input type="submit" value="Send" />
+                <input className="botao-enviar" type="submit" value="Send" />
               </form>
-              {/* Nome: <input />
-              E-mail: <input />
-              Mensagem: <text-area />  */}
             </div>
             <div className="download-cv-container">
               <a href="cv-caio.pdf" download="Caio Cv cv-caio.pdf">

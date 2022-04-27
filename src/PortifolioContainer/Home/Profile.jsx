@@ -9,6 +9,7 @@ import Historico from "../../component/Historico";
 
 import "./Profile.css";
 import Testemonial from "../Testimonial/Testimonial";
+import ApiGit from "../../component/ApiGit";
 
 export default function Profile() {
   return (
@@ -56,6 +57,7 @@ export default function Profile() {
                 Olá, Sou o{" "}
                 <span className="highlighted-text" font-color="orange">
                   Caio
+                  <ApiGit />
                 </span>
               </span>
             </div>
