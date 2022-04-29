@@ -1,16 +1,32 @@
-## Aula do dia 03/09/2018
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-[index01.html](basic/index01.html)<br>
-[index02.html](basic/index02.html)<br>
-[index03.html](basic/index03.html)<br>
-[index04.html](basic/index04.html)<br>
-[index05.html](basic/index05.html)<br>
-[index06.html](basic/index06.html)<br>
-[index07.html](basic/index07.html)<br>
-[index08.html](basic/index08.html)<br>
-[index09.html](basic/index09.html)<br>
-[index10.html](basic/index10.html)<br>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
 
----
-
-Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/).
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+    />
+    <title>Portifolio Caio Albuquerque</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
